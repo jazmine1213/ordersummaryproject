@@ -10,6 +10,10 @@ body{
 
 }
 
+h1{
+    color: hsl(223, 47%, 23%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -22,6 +26,10 @@ body{
 
 .rounded-corners{
     border-radius: 15px 15px 0 0;
+}
+
+.bottomRoundedCorners{
+    border-radius: 0 0 15px 15px;
 }
 #column-with-information{
     display: flex;
@@ -38,9 +46,6 @@ body{
     width: 50%;
 
 }
-#button{
-
-}
 #container{
 display: flex;
 justify-content: center;
@@ -53,3 +58,66 @@ p{
 font-weight: 500;
 color: rgb(146, 143, 143);
 }
+
+#annual-payment-cont{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#annual-contain{
+    display: flex;
+    margin-left: 15px;
+}
+#change-link{
+    margin-left: auto;
+    margin-right: 15px;
+    color: hsl(223, 47%, 23%)
+}
+
+#Music-Icon{
+    margin-left: 15px;
+}
+
+#paymentButton{
+    border: 0px;
+    margin-top: 25px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 8px;
+    padding: 10px 24px;
+    box-shadow: 0 8px 16px rgba(0, 0,0, 0.2),0 6px 20px 0 rgba(0, 0,0, 0.19);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+b{
+    color: hsl(223, 47%, 23%);
+}
+
+#links{
+display: flex;
+flex-direction: column;
+}
+
+#cancelOrderLink{
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 700;
+color: rgb(146, 143, 143);
+text-decoration: none;
+font-size: 16px;
+}
+
+#changeOrderLink{
+    font-weight: 500;
+}
+
+#contentContainer{
+    display: flex;
+    justify-content: center;
+}
+
